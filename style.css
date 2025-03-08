@@ -1,0 +1,29 @@
+body{
+    font-family: Arial narrow;
+    margin: 20px;
+    padding: 50px;
+    background-color: #fff;
+}
+header{
+    background-color: #4caf50;
+    color: black;
+    text-align: center;
+    padding: 1em;    
+}
+nav{
+    margin: 20px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+footer{
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
