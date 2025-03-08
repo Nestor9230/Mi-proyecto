@@ -1,1 +1,207 @@
-Hola mundo
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Sobre mi</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+        body{font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            padding: 10px ;
+        }
+        table{
+            width: 70%;
+            margin: 20px 0;
+            text-align: center;
+           
+        }
+        th,td{
+            border: 3px solid;
+            padding: 10px;
+        }
+        th{
+            background-color: rgb(112, 148, 15);
+        }
+        td{
+            background-color: rgb(215, 215, 223);
+        }
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .form-container {
+            width: 50%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-size: 16px;
+            color: #b31313;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 120px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+    </style>    
+
+</head>
+<body>
+    <header><h1>Bienvenidos a la Primera Pagina Web de Nestor Mora Celis</h1><hr></header>
+    <nav>
+        <ul>
+            <li><a href="https://www.instagram.com/nestormora30?igsh=aDk3NTk3OWFmcXFw">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/hugo-celis-93292263/">Linkedin</a></li>
+            <li><a href="https://wa.me/573132002196">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="Captura.PNG">
+        
+        <h2>Nestor Hugo Mora Celis</h2>
+        <p>Tecnologo en diseño e integración de automatismos mecatrónicos del SENA en Bogotá, Colombia. Me califico como una persona con mentalidad emprendedora y exigente consigo misma, con un espíritu investigativo, alto grado de compromiso, capacidad y voluntad de realizar las actividades que se le asignen con calidad humana y habilidad para identificar necesidades.</p>
+        <h2>Estudios realizados</h2>
+        <ul>
+            <li>Tecnología en Diseño e Integración de Automatismos Mecatrónicos</li>
+            <li>Tecnología en Administración y Ejecución de Construcciones</li>
+            <li>Técnico en Carpintería para la Construcción</li>
+            <li>Bachiller Técnico en Ebanistería y Modelería.</li>
+            <li>Primaria</li>
+        </ul>
+        <h2>Lista de tareas Pendiente por hacer:</h2>
+        <ol>
+            <li>Despierto</li>
+            <li>Desayuno</li>
+            <li>Almuerzo</li>
+            <li>Cenar</li>
+            <li>Descansar</li>
+        </ol>
+        <h2>Horario</h2>
+        <table>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sabado</th>
+                <th>Domingo</th>
+            </tr>
+            <tr>
+                <td>Despierto</td>
+                <td>Despierto</td>
+                <td>Despierto</td>
+                <td>Despierto</td>
+                <td>Despierto</td>
+                <td>Despierto</td>
+                <td>Despierto</td>
+            </tr>
+            <tr>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+            </tr>
+            <tr>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+            </tr>
+            <tr>
+                <td>Cenar</td>
+                <td>Cenar</td>
+                <td>Cenar</td>
+                <td>Cenar</td>
+                <td>Cenar</td>
+                <td>Cenar</td>
+                <td>Cenar</td>
+            </tr>
+            <tr>
+                <td>Descansar</td>
+                <td>Descansar</td>
+                <td>Descansar</td>
+                <td>Descansar</td>
+                <td>Descansar</td>
+                <td>Descansar</td>
+                <td>Descansar</td>
+            </tr>
+        </table>
+        <h2>Formulario de Contacto</h2>
+        <form action="/enviar" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="motivo">Motivo del Contacto:</label>
+            <input type="text" id="motivo" name="motivo" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <input type="submit" value="Enviar">
+ 
+    </main>
+    <br><br>
+   
+
+
+    
+
+
+
+
+</body>
+<footer>
+    <p>
+        <hr>
+        &copy; 2025 - Mi primera pagina web
+    </p>
+</footer>
+</html>
